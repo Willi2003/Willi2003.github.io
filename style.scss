@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&family=Source+Serif+4:wght@600&display=swap');
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 31px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+body {
+    background-color: rgb(2, 13, 44);
+    font-family: 'Roboto Mono', monospace;
+}
+
+#header {
+
+    .header_top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 820px;
+        height: 80px;
+        background-color: black;
+
+        nav {
+
+            ul {
+                display: flex;
+                gap: 70px;
+
+                li {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
