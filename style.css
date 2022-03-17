@@ -28,5 +28,19 @@ body {
 #header .header_top nav ul li {
   font-size: 22px;
 }
+#header .header_content {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+#header .header_content .header_content_presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+#header .header_content .header_content_presentation p {
+  font-size: 26px;
+}
 
 /*# sourceMappingURL=style.css.map */

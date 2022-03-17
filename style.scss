@@ -36,4 +36,21 @@ body {
             }
         }
     }
+
+    .header_content {
+        display: flex;
+        justify-content: center;
+        padding-top: 110px;
+
+        .header_content_presentation {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 600px;
+
+            p {
+                font-size: 26px;
+            }
+        }
+    }
 }
