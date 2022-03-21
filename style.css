@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&family=Source+Serif+4:wght@600&display=swap");
+section {
+  padding-top: 100px;
+  height: 1080px;
+}
+
+h1 {
+  font-size: 52px;
+}
+
 h2 {
   font-size: 40px;
 }
@@ -13,6 +22,9 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+#header {
+  padding: 0;
+}
 #header .header_top {
   display: flex;
   justify-content: center;
@@ -32,7 +44,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 90px;
-  margin-top: 210px;
+  margin-top: 310px;
 }
 #header .header_content .header_content_presentation {
   display: flex;
@@ -41,8 +53,42 @@ body {
   width: 600px;
 }
 #header .header_content .header_content_presentation p {
-  font-size: 26px;
-  line-height: 40px;
+  font-size: 27px;
+  line-height: 50px;
+}
+#header .header_content img {
+  height: 370px;
+}
+
+#project h2 {
+  padding: 100px 0 0 175px;
+}
+#project h2 span {
+  text-decoration: underline;
+}
+#project .project_card {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+#project .project_card .project_card_content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  width: 1580px;
+}
+#project .project_card .project_card_content .card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 310px;
+  height: 540px;
+  background-color: black;
+  background-image: url(Asset/nezuko.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -100px;
 }
 
 /*# sourceMappingURL=style.css.map */
