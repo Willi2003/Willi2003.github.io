@@ -27,11 +27,11 @@ body {
 }
 #header .header_top {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 820px;
   height: 80px;
   background-color: black;
+  padding: 0 50px;
 }
 #header .header_top nav ul {
   display: flex;
@@ -61,7 +61,7 @@ body {
 }
 
 #project h2 {
-  padding: 100px 0 0 175px;
+  padding: 0 0 0 175px;
 }
 #project h2 span {
   text-decoration: underline;
@@ -81,13 +81,51 @@ body {
 #project .project_card .project_card_content .card {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  align-items: flex-end;
+  gap: 204px;
   width: 310px;
   height: 540px;
   background-color: black;
   background-image: url(Asset/anime-girl-png-tumblr-9.png);
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 318px;
+  border-radius: 8px;
+}
+#project .project_card .project_card_content .card .card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 20px;
+}
+#project .project_card .project_card_content .card .card_text p {
+  width: 138px;
+  text-align: end;
+}
+#project .project_card .project_card_content .card .card_text h3 {
+  width: 150px;
+  text-align: end;
+}
+#project .project_card .project_card_content .card .card_repo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+#project .project_card .project_card_content .card .card_repo img {
+  height: 103px;
+}
+#project .project_card .project_card_content .card .card_repo button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #db485d;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#project .project_card .project_card_content .card .card_repo button:hover {
+  opacity: 0.6;
 }
 
 /*# sourceMappingURL=style.css.map */

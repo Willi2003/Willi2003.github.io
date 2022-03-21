@@ -28,11 +28,11 @@ body {
 
     .header_top {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 820px;
         height: 80px;
         background-color: black;
+        padding: 0 50px;
 
         nav {
 
@@ -75,7 +75,7 @@ body {
 
 
     h2 {
-        padding: 100px 0 0 175px;
+        padding: 0 0 0 175px;
 
         span {
             text-decoration: underline;
@@ -97,13 +97,58 @@ body {
             .card {
                 display: flex;
                 flex-direction: column;
-                gap: 50px;
+                align-items: flex-end;
+                gap: 204px;
                 width: 310px;
                 height: 540px;
                 background-color: black;
                 background-image: url(Asset/anime-girl-png-tumblr-9.png);
                 background-repeat: no-repeat;
-                background-size: 300px;
+                background-size: 318px;
+                border-radius: 8px;
+
+                .card_text {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    gap: 20px;
+                    padding: 20px;
+
+                    p {
+                        width: 138px;
+                        text-align: end;
+                    }
+
+                    h3 {
+                        width: 150px;
+                        text-align: end;
+                    }
+                }
+
+                .card_repo {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 30px;
+                    width: 100%;
+
+                    img {
+                        height: 103px;
+                    }
+    
+                    button {
+                        border: none;
+                        padding: 10px 30px;
+                        background-color: #db485d;
+                        color: white;
+                        border-radius: 15px;
+                        cursor: pointer;
+                    }
+
+                    button:hover {
+                        opacity: 0.6;
+                    }
+                }
             }
         }
     }
