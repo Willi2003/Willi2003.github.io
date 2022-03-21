@@ -85,10 +85,9 @@ body {
   width: 310px;
   height: 540px;
   background-color: black;
-  background-image: url(Asset/nezuko.png);
+  background-image: url(Asset/anime-girl-png-tumblr-9.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: -100px;
+  background-size: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
