@@ -40,6 +40,42 @@ body {
 #header .header_top nav ul li {
   font-size: 22px;
 }
+#header .form_contact {
+  display: flex;
+  justify-content: center;
+  padding-top: 220px;
+}
+#header .form_contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 710px;
+  background-color: black;
+  padding: 30px;
+}
+#header .form_contact form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#header .form_contact form fieldset .form_message textarea {
+  resize: vertical;
+}
+#header .form_contact form fieldset div {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+#header .form_contact form fieldset input {
+  width: 100%;
+  height: 40px;
+}
+#header .form_contact form .form_submit {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  width: 120px;
+}
 #header .header_content {
   display: flex;
   justify-content: center;

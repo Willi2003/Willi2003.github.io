@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <section id="header">
+        <div class="header_top">
+            <h3><a href="index.html">William Queva</a></h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://github.com/Willi2003">GitHub</a></li>
+                    <li><a href="https://twitter.com/queva_william">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/william779493">Instagram</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="form_contact">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xgedzgez" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <div class="form_name">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    </div>
+                    <div class="form_email">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@gmail.com" required="">
+                    </div>
+                    <div class="form_message">
+                        <label for="message">Message</label>
+                        <textarea rows="10" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                    </div>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input class="form_submit" type="submit" value="Send message">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
