@@ -79,16 +79,16 @@ body {
   width: 1580px;
 }
 #project .project_card .project_card_content .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 204px;
   width: 310px;
   height: 540px;
   background-color: black;
-  background-image: url(Asset/anime-girl-png-tumblr-9.png);
+  background-image: url(Asset/meliodas.png);
   background-repeat: no-repeat;
-  background-size: 318px;
+  background-size: 180px;
   border-radius: 8px;
 }
 #project .project_card .project_card_content .card .card_text {
@@ -103,10 +103,11 @@ body {
   text-align: end;
 }
 #project .project_card .project_card_content .card .card_text h3 {
-  width: 150px;
   text-align: end;
 }
 #project .project_card .project_card_content .card .card_repo {
+  position: absolute;
+  bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
