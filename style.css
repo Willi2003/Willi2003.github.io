@@ -79,8 +79,9 @@ body {
 #header .header_content {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 90px;
-  margin-top: 310px;
+  margin-top: 250px;
 }
 #header .header_content .header_content_presentation {
   display: flex;
@@ -92,8 +93,13 @@ body {
   font-size: 27px;
   line-height: 50px;
 }
-#header .header_content img {
-  height: 370px;
+#header .header_content .header_content_img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-image: url(Asset/Photo_CV.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 #project h2 {
